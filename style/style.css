@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Reset basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo do menu */
+.menu{
+    text-align: center;
+    background-color: #497B2D;
+    padding: 20px 0;
+    border-bottom: 3px solid;
+    color: #497B2D;
+}
+
+/* estilo para logo */
+.logotipo{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 39px;
+    margin-top: -1.8%;
+    float: inline-start;
+}
+/* estilos para os itens do menu */
+.menu-item{
+    display: inline-block;
+    margin: 0 20px;
+    color: #432EE6;
+}
+/* estilo para link do menu */
+.menu-item a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+}
+/* estilo dos links quando passar o mouse por cima*/
+.menu-item:hover {
+    background-color: #497B2D;
+}
+.menu-item:hover a{
+    color: #333333;
+}
